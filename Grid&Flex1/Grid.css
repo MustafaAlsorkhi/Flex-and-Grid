@@ -1,0 +1,73 @@
+.grid{
+    width: 40%;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px 15px;
+    grid-template-rows: 50px 100px 100px 100px 100px 50px; 
+    justify-content:stretch;
+    
+
+}
+.a1{
+    background-color: rgb(127, 127, 127);
+    grid-column: 1/13;
+    }
+.a2{
+    background-color: blue;
+    grid-column: 1/9;
+
+}
+.a3{
+    background-color: aqua;
+    grid-column: 9/13;
+
+}
+
+.a4 {
+
+    grid-column: 1/5;
+    background-color: rgb(243, 243, 14);
+}
+.a5{
+
+    grid-column: 5/9;    
+    background-color: rgb(243, 243, 14);
+}
+
+.a6{
+
+    grid-column: 9/13;
+    background-color: rgb(243, 243, 14);
+}
+
+.a7{
+    grid-column: 1/5;
+    background-color: aqua;
+}
+.a8{
+    background-color: blue;
+    grid-column: 5/13;
+}
+
+.a9{
+    grid-column: 1/4;
+    background-color: orange;
+}
+.a10{
+    grid-column: 4/7;
+    background-color: orange;
+}
+.a11{
+    grid-column: 7/10;
+    background-color: orange;
+}
+.a12{
+    grid-column: 10/13;
+    background-color: orange;
+}
+
+
+.a13{
+    background-color: rgb(127, 127, 127);
+    grid-column: 1/13;
+}
